@@ -1,0 +1,180 @@
+html {
+    height: 125%;
+  }
+  
+  body {
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    height: 100%;
+    background: linear-gradient(#30142b, #a12727);
+  }
+
+.bgc{
+    background: transparent;
+}
+
+.tab{
+    color: white;
+}
+
+table, th, td{
+    padding: 5px
+    ;
+}
+
+a.navbar-brand{
+    color: white;
+        font-size: larger;
+}
+
+*{
+    margin-top: 2px;
+}
+.Baloo{
+    font-family: 'Baloo Bhai', cursive;
+}
+
+.dropdown{
+    margin-top: 15px;
+}
+
+.border:hover{
+
+    border-radius: 8px;
+}
+
+.navbar{
+    background: transparent;
+    border-radius: 9px;
+    border: 3px solid #c20606;
+}
+
+.border{
+    border: 0px solid black;
+    background: transparent;
+    color: white;
+    font-size: small;
+}
+
+#bt1{
+    background:transparent ;
+    color: rgb(255, 255, 255);
+    border: 2px solid #37152b;
+}
+
+
+#bt:hover {
+    border-color: #c20606;
+    color: white;
+}
+#bt{
+    background: transparent ;
+    border: 2px solid #37152b;
+    position: relative;
+    right: 8px;
+}
+ 
+.login-box {
+    position: absolute;
+    top: 29%;
+    left: 50%;
+    width: max-content;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgba(0,0,0,.5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 50px;
+  }
+  .login-box2 {
+    position: absolute;
+    top: 200%;
+    left: 50%;
+    width: 100%;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgba(0,0,0,.5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 50px;
+  }
+
+#done{
+    background: transparent;
+    color: white;
+    padding-left: 2px;
+    border: 0px solid white;
+}
+
+#done:hover{
+    border-radius: 8px;
+    
+}
+
+
+
+
+
+
+  .login-box button:hover {
+    background: black;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 4px rgb(235, 63, 63),
+                0 0 4px rgb(220, 37, 37),
+                0 0 4px rgb(209, 44, 44),
+                0 0 19px #be2121;
+  }
+
+.login-box button span {
+    position: absolute;
+    display: block;
+  }
+  
+  
+  @keyframes btn-anim3 {
+    0% {
+      right: -100%;
+    }
+    50%,100% {
+      right: 100%;
+    }
+  }
+  
+  .login-box button span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #f4b003);
+    animation: btn-anim4 1s linear infinite;
+    animation-delay: .75s
+  }
+  
+  @keyframes btn-anim4 {
+    0% {
+      bottom: -100%;
+    }
+    50%,100% {
+      bottom: 100%;
+    }
+  }
+  
+
+
+.btn{
+    margin-right: 7px;
+}
+
+
+::placeholder { 
+    padding: 6px;
+    color: rgb(255, 255, 255);
+    font-family: 'Baloo Bhai', cursive;
+    opacity: 1;
+}
+.space{
+    margin: 12px;
+    padding: 2px;
+}

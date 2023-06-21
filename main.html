@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Virtual Investa</title>
+  <link rel="stylesheet" href="style.css">  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <nav class="navbar bgc">
+        <div class="container-fluid">
+          <a class="navbar-brand" style="text-align: center; position: relative;left: 45%;">Virtual Investa</a>
+          <div class="btn-group">
+            <button type="button" id="bt1" class="btn btn-danger">Welcome</button>
+            <button type="button" id="bt" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+              <span class="visually-hidden">Toggle Dropdown</span>
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="index.html">Sign Out</a></li>
+              
+            </ul>
+          </div>
+            
+        </div>
+      </nav>
+  <!-- <h1 style="color:rgb(255, 255, 255); text-align: center;" >Virtual Investa</h1> -->
+
+  <!-- <h2 style="color:rgb(255, 255, 255)">Stock List</h2> -->
+  <div class="login-box">
+  <div class="dropdown">
+    <button style="color:rgb(0, 0, 0);background-color: rgb(255, 255, 255);" class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+      Stocks List
+    </button>
+    <ul style="color:rgb(0, 0, 0)" class="dropdown-menu">
+      <li>Apple Inc.(AAPL)</li>
+      <li>Adobe Inc. (ADBE)</li>
+      <li>Tesla, Inc. (TSLA)</li>
+      <li>Intel Corporation (INTC)</li>
+    </ul>
+  </div>
+  <h2 class ="space"style="color:rgb(255, 255, 255)">Buy/Sell</h2>
+  
+  <select class="Baloo space border">
+    <option value="" disabled selected hidden >Choose a Stock</option>
+    <option style="color: black; padding: auto;">Apple Inc.(AAPL)</option>
+    <option style="color: black;padding: auto;">Adobe Inc. (ADBE)</option>
+    <option style="color: black;padding: auto;">Tesla, Inc. (TSLA)</option>
+    <option style="color: black;padding: auto;">Intel Corporation (INTC)</option>
+  </select>
+  <input class="Baloo space border" type="number" id="quantity" placeholder="Quantity" >
+  <select class ="Baloo space border">
+      <option value="" disabled selected hidden>Choose to Buy or Sell</option>
+      <option style="color: black;">Buy</option>
+      <option style="color: black;">Sell</option>
+    </select>
+  
+    <button class="Baloo space" id="done"> <span></span>
+        <span></span>
+        <span></span>
+        <span></span>Done</button>
+    <div class="login-box2">
+
+  <h4 class ="space"style="color:rgb(255, 255, 255)">Intitial Funds = Rs. 100,000</h4>
+  <p class=" space" id="remaining-funds" style="color:rgb(255, 255, 255)">Remaining Funds: Rs. 100,000</p>
+
+
+  <h2 class ="space"style="color:rgb(255, 255, 255)">Portfolio Overview</h2>
+  <table class="tab" >
+    
+    
+        <tr style="border: 2px solid white;">
+           <th style="border: 2px solid white;">Stock Owned</th>
+           <th style="border: 2px solid white;">Quantity</th>
+           <th style="border: 2px solid white;">Market Price</th>
+        </tr>
+        <tr style="border: 2px solid white;">
+           <td style="border: 2px solid white;">Apple Inc.(AAPL)</td>
+           <td style="border: 2px solid white;">0</td>
+           <td style="border: 2px solid white;">0</td>
+        </tr>
+        
+        <tr style="border: 2px solid white;">
+           <td style="border: 2px solid white;">Adobe Inc. (ADBE)</td>
+           <td style="border: 2px solid white;">0</td>
+           <td style="border: 2px solid white;">0</td>
+        </tr>
+
+        <tr style="border: 2px solid white;">
+           <td style="border: 2px solid white;">Tesla, Inc. (TSLA)</td>
+           <td style="border: 2px solid white;">0</td>
+           <td style="border: 2px solid white;">0</td>
+        </tr>
+        
+        <tr style="border: 2px solid white;">
+           <td style="border: 2px solid white;">Intel Corporation (INTC)</td>
+           <td style="border: 2px solid white;">0</td>
+           <td style="border: 2px solid white;">0</td>
+        </tr>
+     </table>
+  </table>
+      <h2 class ="space"style="color:rgb(255, 255, 255)">Profit Tracking</h2>
+  <p class="Baloo space" id="profit-loss" style="color:rgb(255, 255, 255)">Profit/Loss: Rs. 0</p>
+    </div>
+  </div>
+  </div>
+
+  
+</div>
+  
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</html>
